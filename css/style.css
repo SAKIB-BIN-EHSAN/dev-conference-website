@@ -1,0 +1,60 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    color: #111827;
+    background-color: #ffffff;
+}
+
+/* CSS for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 24px
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #575757;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.register-btn {
+    border-radius: 10px;
+    background: #1d4ed8FF;
+    color: #ffffffFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 12px 20px;
+    border: 2px solid #2563eb;
+}
+
+.register-btn:hover {
+  opacity: 0.88;
+}
