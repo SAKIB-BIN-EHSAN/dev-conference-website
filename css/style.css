@@ -565,7 +565,7 @@ body {
  CSS FOR FOOTER SECTION 
  ========== */
 .footer {
-  background-color: #ffffff;
+  background-color: #0d1b2aFF;
   padding: 32px 0 24px;
   border-top: 1px solid #f3f4f6;
 }
@@ -613,7 +613,7 @@ body {
 }
 
 .footer-copyright {
-  font-size: 0.83rem;
+  font-size: 16px;
   color: #9ca3af;
   text-align: center;
 }
