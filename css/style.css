@@ -543,3 +543,58 @@ body {
   font-size: 0.82rem;
   color: #9ca3af;
 }
+
+/* CSS FOR FOOTER SECTION */
+.footer {
+  background-color: #ffffff;
+  padding: 32px 0 24px;
+  border-top: 1px solid #f3f4f6;
+}
+
+/* Logo on the left, social icons on the right */
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer-logo-link {
+  flex-shrink: 0;
+}
+
+.footer-logo-img {
+  height: 36px;
+  width: auto;
+}
+
+/* Social media icon links */
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-link {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.social-link:hover {
+  color: #2563eb;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.footer-copyright {
+  font-size: 0.83rem;
+  color: #9ca3af;
+  text-align: center;
+}
